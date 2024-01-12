@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+body{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    co
+}
