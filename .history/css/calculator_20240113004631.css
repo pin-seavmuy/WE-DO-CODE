@@ -50,7 +50,7 @@ body{
         .theme-toggler::before{
             content: "";
             height: 30px;
-            width: 30px;
+            width: 0px;
             position: absolute;
             top: 50%;
             transform: translate(-50%, -50%);
@@ -118,7 +118,6 @@ body{
        /* dark theme */
     .calculator{
         background-color: #071115;
-        /* color: #fff; */
     }
     .calculator.dark #display{
         color: #f8fafd;

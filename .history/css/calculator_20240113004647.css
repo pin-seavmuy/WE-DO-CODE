@@ -117,8 +117,7 @@ body{
 
        /* dark theme */
     .calculator{
-        background-color: #071115;
-        /* color: #fff; */
+        background-color: #5a95ac;
     }
     .calculator.dark #display{
         color: #f8fafd;

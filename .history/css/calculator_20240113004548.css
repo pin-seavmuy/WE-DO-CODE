@@ -37,7 +37,7 @@ body{
             top: 30px;
             right: 30px;
             color: #fff;
-            /* background-color: green; */
+            background-color: green;
             cursor: pointer;
             z-index: 1;
         }
@@ -118,7 +118,6 @@ body{
        /* dark theme */
     .calculator{
         background-color: #071115;
-        /* color: #fff; */
     }
     .calculator.dark #display{
         color: #f8fafd;
