@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text");
+
+.container{
+    box-shadow: 0 0 30px 3px #3d4846;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    border-radius: 15px;
+}
+h1{
+    position: relative;
+    display: contents;
+    color: #626B5B;
+    font-size: 10rem;
+    font-weight: 100;
+    font-family: ;
+}
