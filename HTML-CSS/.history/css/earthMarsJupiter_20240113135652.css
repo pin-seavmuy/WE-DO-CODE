@@ -1,0 +1,26 @@
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display');
+
+body{
+    /* background-color: red; */
+}
+:root{
+    --earth-image: url("https://www.pngplay.com/image/11039");
+    --earth-tilt: rotate(23.26deg);
+    --earth-day: 23.9;
+    --earth-color: #b3caff;
+    --mars-image: url("https://www.pngplay.com/image/69880");
+    --mars-tilt: rotate(25.2deg);
+    --mars-day: 24.6;
+    --mars-color: #c07158;
+    --jupiter-image: url("https://www.pngplay.com/image/477156");
+    --jupiter-tilt: rotate(3.1deg);
+    --jupiter-day: 9.9;
+    --jupiter-color: #c9b5a4;
+}
+
+@keyframes planetRotate {
+    0%{
+        background-position: 0% center;
+    }
+}
