@@ -27,7 +27,7 @@ h1{
 span{
     user-select: none;
     padding-bottom: 10px;
-    animation: anim 2.8s ease-out infinite;
+    animation: anim 2.8s ease-out ;
     animation-delay: var(--d);
 }
 
@@ -40,7 +40,7 @@ span{
     }
     100% {
         color: aliceblue;
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid darkred;
         text-shadow: 1px 1px 35px aqua;
     }
 }

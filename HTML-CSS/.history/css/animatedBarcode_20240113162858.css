@@ -40,7 +40,7 @@ span{
     }
     100% {
         color: aliceblue;
-        border-bottom: 1px solid #fff;
+        border-bottom: 2px solid darkred;
         text-shadow: 1px 1px 35px aqua;
     }
 }
