@@ -1,0 +1,14 @@
+@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    --bg: #EBEBEB;
+    --black: #33333333;
+    --prog: #A4B7BE;
+}

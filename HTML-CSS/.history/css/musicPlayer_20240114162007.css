@@ -1,0 +1,86 @@
+@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    --bg: #EBEBEB;
+    --black: #33333333;
+    --prog: #A4B7BE;
+}
+body{
+    background: var(--bg);
+    color: var(--black);
+}
+a{
+    text-decoration: none;
+}
+.player{
+    background: var(--bg);
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+}
+.header{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header>.button{
+    width: 2rem;
+    height: 2rem;
+    background: linear-gradient(145deg, #fbfbfb, #d4d4d4);
+    color: var(--black);
+    border-radius: 6px;
+    box-shadow: 4px 4px 7px #cccccccc, -4px -4px 7px #ffffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    display: block;
+    width: 175px;
+    height: 175px;
+    border: 4px solid#EBEBED;
+    margin: 1rem auto;
+    border-radius: 50%;
+    box-shadow: 16px 16px 57px #acacac, -16px -16px 57px #ffffff;
+}
+.info{
+    margin: 2rem 0;
+    text-align: center;
+}
+.info h1{
+    color: var(--black);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.info p{
+    color: var(--prog);
+    font-size: 1.15rem;
+}
+
+.prog{
+    padding: 10px 0;
+}
+.prog-time{
+    padding: 3px 5px;
+    color: var(--prog);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.prog-time>p{
+    font-size: 0.75rem;
+}
+.prog-bar{
+    width: 100%;
+    height: 10px;
+    padding: 1px;
+    border-radius: 25px;
+}
