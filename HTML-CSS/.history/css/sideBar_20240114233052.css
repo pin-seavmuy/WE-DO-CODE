@@ -1,0 +1,39 @@
+@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600&display=swap');
+
+body{
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(0deg, #aea4e3 0%, #d3ffe8 50%, #bf6fea 100%);
+}
+li>a{
+    color: #999;
+}
+.menu{
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    width: 240px;
+    background: #0009;
+    top: 0;
+    padding-top: 10px;
+    user-select: none;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: width .05s linear;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul,
+li{
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    position: relative;
+    display: block;
+}
