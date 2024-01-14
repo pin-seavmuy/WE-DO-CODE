@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.wrapper{
+    width: 750px;
+    padding: 25px;
+    border-radius: 10px;
+    background: #dde1e7;
+    box-shadow: ;
+}
