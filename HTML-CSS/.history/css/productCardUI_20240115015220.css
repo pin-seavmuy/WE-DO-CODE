@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600,700');
+@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+
+.card{
+    position: relative;
+    width: 380px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 7px #dfdfdf;
+    font-family: 'Roboto', sans-serif;
+}

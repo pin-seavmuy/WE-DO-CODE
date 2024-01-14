@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600,700');
+@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+
+.card{
+    position: relative;
+    width: 380px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 7px #dfdfdf;
+    font-family: 'Roboto', sans-serif;
+}
+.badge{
+    position: absolute;
+    background-color: red;
+    color: #fff;
+    left: 0;
+    top: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 3px 10px;
+}
+.tumb{
+    height: 300px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+}
+.tumb img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.details{
+    padding: 30px;
+}
+.category{
+    display: block;
+    color: #ccc;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+h4 a{
+    font-weight: 500;
+    color: #363636;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s;
+}
+h4 a:hover{
+    color: #fbb72c;
+}
+p{
+    color: #999;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+}
+.bottom-details{
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+.bottom-details div{
+    float: left;
+    width: 50%;
+}
+.price{
+    color: #fbb72c;
+    font-size: 18px;
+    font-weight: 600;
+}
+small{
+    font-size: 80%;
+    font-weight: 400;
+    tex
+}
