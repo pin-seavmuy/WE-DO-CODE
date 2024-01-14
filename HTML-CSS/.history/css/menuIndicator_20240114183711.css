@@ -1,0 +1,71 @@
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+body{
+    background-color: black;
+}
+.navigation{
+    position: relative;
+    width: 450px;
+    height: 80px;
+    background-color: #2f2f2f;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+ul{
+    position: relative;
+    display: flex;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+}
+li{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    list-style: none;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 500;
+}
+.icon{
+    position: relative;
+    display: block;
+    color: #ffffff80;
+    line-height: 85px;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: 0.5s;
+}
+a:hover .icon{
+    color: #fff;
+}
+li.active .icon{
+    transform: rotateY(-8px);
+    color: #29fd53;
+}
+.text{
+    position: absolute;
+    font-weight: 400;
+    font-size: 0.6rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    transform: rotateY(10px);
+    color: #222327;
+    transition: 0.5s;
+    opacity: 0;
+}
