@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+.container{
+    position: relative;
+    width: 30rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #455A64;
+    margin: 1rem;
+}
