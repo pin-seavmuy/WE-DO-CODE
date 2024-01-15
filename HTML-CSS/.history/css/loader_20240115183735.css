@@ -1,0 +1,29 @@
+:root{
+    --primary-color: #00ff00;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background-color: #222;
+}
+.loader{
+    gap: 20px;
+    display: flex;
+    position: relative;
+}
+span{
+    position: relative;
+    width: 10px;
+    height: 30px;
+}
+span::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    inset: 0;
+    background: ;
+}

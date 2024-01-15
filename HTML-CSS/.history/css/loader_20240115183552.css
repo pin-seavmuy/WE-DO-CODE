@@ -1,0 +1,10 @@
+:root{
+    --primary-color: #00ff00;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    
+}

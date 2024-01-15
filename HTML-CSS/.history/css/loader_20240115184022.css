@@ -1,0 +1,41 @@
+:root{
+    --primary-color: #00ff00;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background-color: #222;
+}
+.loader{
+    gap: 20px;
+    display: flex;
+    position: relative;
+}
+span{
+    position: relative;
+    width: 10px;
+    height: 30px;
+}
+span::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    inset: 0;
+    background: var(--primary-color);
+    box-shadow: 0 0 5px var(--primary-color),
+                0 0 15px var(--primary-color),
+                0 0 30px var(--primary-color),
+                0 0 50px var(--primary-color);
+    animation: anim 6s linear infinite;
+    animation-delay: calc(var(--i) * 0.1s);
+}
+
+@keyframes anim {
+    0% {
+        ba
+    }
+}
