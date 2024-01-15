@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: black;
+}
+.clock{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+.clock div{
+    position: relative;
+    margin: 0 10px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+}
+span{
+    z-index: 10;
+    position: relative;
+    width: 100px;
+    height: 80px;
+    background-color: #34CE67;
+    display: block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: black;
+    box-shadow: 0 0 0 1px #00000066;
+}
+span:nth-child(2){
+    font-size: 16px;
+    height: 30px;
+    box-shadow: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: rgba(52, 206, 103, 0.521);
+    color: #fff;
+}

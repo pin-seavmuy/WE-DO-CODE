@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.clock{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+.clock div{
+    position: relative;
+    margin: 0 10px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+}
+span{
+    z-index: 10;
+    position: relative;
+    width: 100px;
+    height: 80px;
+    background-color: #34CE67;
+    display: block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: ;
+}
