@@ -1,0 +1,15 @@
+:root{
+    --primary: #4471ef;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: var(--primary);
+}
+.range-input{
+    background: #eee;
+    font-family: sans-serif;
+    
+}
