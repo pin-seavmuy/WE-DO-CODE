@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background-color: #121215;
+}
+.solar-system{
+    position: relative;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+.orbit{
+    border: 1px dashed #666;
+}
+#sun, .orbit, .orbit + div, .orbit + div > div{
+    position: absolute;
+}
+#sun, .orbit, .orbit + div{
+    top: 50%;
+    left: 50%;
+}
+.orbit + div > div
