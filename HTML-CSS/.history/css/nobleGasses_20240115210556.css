@@ -1,0 +1,28 @@
+@font-face{
+    font-family: "Neon Glow";
+    src: url('https://cdn.jsdelivr.net/gh/codetheworld-io/static-files/NeonGlow-8VLz.ttf');
+}
+body{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background-color: #101010;
+    box-sizing: border-box;
+}
+.gasses{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.gas{
+    --blur: 1.75rem;
+    --box-blur: calc(0.5 * var(--blur));
+    --glow: var(--color, white);
+    --size: 10rem;
+    width: var(--size);
+    height: var(--size);
+    display: inline-flex;
+    align-items: center;
+    justify-content: s;
+}
