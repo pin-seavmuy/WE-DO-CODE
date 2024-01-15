@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Chivo:700");
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background-color: #333;
+    font-size: 1.2em;
+}
+.container{
+    position: relative;
+    animation: float 3s infinite alternate;
+}
+
+@keyframes float {
+    from{
+        transform: translateY(0.5em);
+    }
+    to{
+        transform: translateY(-0.5em);
+    }
+}
+
+.chat-bubble{
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    left: 50%;
+    bottom: 100%;
+    text-align: center;
+    transform: translateX(-50%);
+    margin-bottom: 5em;
+    font-family: 'Chivo';
+}
+input{
+    background-color: gray;
+    font-size: 1em;
+    font-family: 'Chivo';
+    padding: 1em;
+    border: none;
+    border-radius: ;
+}

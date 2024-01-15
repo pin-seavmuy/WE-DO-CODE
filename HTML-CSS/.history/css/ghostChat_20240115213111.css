@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Chivo:700");
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background-color: #333;
+    font-size: 1.2em;
+}
+.container{
+    position: relative;
+    animation: float 3s infinite alternate;
+}
+
+@keyframes float {
+    from{
+        transform: translateY(0.5em);
+    }
+    to{
+        
+    }
+}
