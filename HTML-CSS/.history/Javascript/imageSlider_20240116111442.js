@@ -1,0 +1,1 @@
+cost IMAGE_WIDTH

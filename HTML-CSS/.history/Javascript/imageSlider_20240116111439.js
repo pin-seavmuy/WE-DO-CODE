@@ -1,0 +1,1 @@
+cosnt IMAGE_WIDTH

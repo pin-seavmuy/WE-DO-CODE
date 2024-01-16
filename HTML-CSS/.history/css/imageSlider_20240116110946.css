@@ -1,0 +1,9 @@
+@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background-color: #fff;
+}
