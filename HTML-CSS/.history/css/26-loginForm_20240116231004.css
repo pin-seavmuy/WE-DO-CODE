@@ -68,7 +68,6 @@ h2, input, a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     gap: 20px;
     z-index: 2;
 }
@@ -87,23 +86,6 @@ input{
     box-shadow: none;
     outline: none;
 }
-input[type="submit"]{
-    width: 100%;
-    background: linear-gradient(45deg, #ff357a, #fff172);
-    border: none;
-    cursor: pointer;
-}
-input::placeholder{
-    color: rgba(255, 255, 255, 0.75);
-}
-.links{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    box-sizing: border-box;
-}
-a{
-    text-decoration: none;
+input[type]{
+
 }

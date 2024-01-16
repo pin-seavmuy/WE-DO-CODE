@@ -68,7 +68,6 @@ h2, input, a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     gap: 20px;
     z-index: 2;
 }
@@ -103,7 +102,4 @@ input::placeholder{
     justify-content: space-between;
     padding: 0 20px;
     box-sizing: border-box;
-}
-a{
-    text-decoration: none;
 }

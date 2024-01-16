@@ -68,7 +68,6 @@ h2, input, a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     gap: 20px;
     z-index: 2;
 }
