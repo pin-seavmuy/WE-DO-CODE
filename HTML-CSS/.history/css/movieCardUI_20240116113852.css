@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.card{
+    position: relative;
+    width: 37.5rem;
+    height: 21.25rem;
+    background: url('https://codetheworld.io/wp-content/uploads/2023/12/captain-amer');
+}

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.card{
+    position: relative;
+    width: 37.5rem;
+}

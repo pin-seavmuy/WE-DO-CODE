@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.card{
+    position: relative;
+    width: 37.5rem;
+    height: 21.25rem;
+    background: url('https://codetheworld.io/wp-content/uploads/2023/12/captain-america-civil-war.jpeg'), #0a0a0a;
+    background-repeat: no-repeat;
+    background-size: 70% 88%;
+    color: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0 10px 20px #;
+}
