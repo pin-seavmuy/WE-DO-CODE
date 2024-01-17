@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Neuton|Oswald');
+
+body{
+    height: 100vh;
+    background-color: #090d00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    width: 40em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font: 400 1em/1.5 ;
+}
