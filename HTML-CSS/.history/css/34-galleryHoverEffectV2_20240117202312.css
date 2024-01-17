@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #000;
+    margin: 0;
+    font-family: 'Bangers', sans-serif;
+}
+.container{
+    
+}

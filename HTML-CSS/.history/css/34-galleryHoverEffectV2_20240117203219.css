@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #000;
+    margin: 0;
+    font-family: 'Bangers', sans-serif;
+}
+.container{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    display: grid;
+}
+.box{
+    position: relative;
+    background: var(--img) center center;
+    background-size: cover;
+    transition: all 400ms;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    transition: all 400ms;
+}
+.container:hover .box{
+    filter: grayscale(100%) opacity(24%);
+}
+.container .box:hover{
+    filter: grayscale(0%) opacity(100%);
+}
+.container{
+    --layout-1: 3fr 1fr 1fr 1fr 1fr;
+    --layout-2: 1fr 3fr 1fr 1fr 1fr;
+    --layout-3: 1fr 1fr 3fr 1fr 1fr;
+    --layout-4: 1fr 1fr 1fr 3fr 1fr;
+    --layout-5: 1fr 1fr 1fr 1fr 3fr;
+
+    &:has(.box-1:hover){
+        grid-template-columns: var(--layout-1);
+    }
+    &:has(.box-2:hover){
+        grid-template-columns: var(--layout-2);
+    }
+    &:has(.box-3:hover){
+        grid-template-columns: var(--layout-3);
+    }
+    &:has(.box-4:hover){
+        grid-template-columns: var(--layout-4);
+    }
+    &:has(.box-5:hover){
+        grid-template-columns: var(--layout-5);
+    }
+}
+.box{
+    &:nth-child(odd){
+        transform: translateY(-16px);
+    }
+    &:nth-child(even){
+        transform: translateY(16px);
+    }
+    &::after{
+        content: attr(data-text);
+        position: absolute
+        ;
+    }
+}

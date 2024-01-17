@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #000;
+    margin: 0;
+    font-family: 'Bangers', sans-serif;
+}
+.container{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    display: grid;
+}
+.box{
+    position: relative;
+    background: var(--img) center center;
+    background-size: cover;
+    transition: all 400ms;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    transition: all 400ms;
+}
+.container:hover .box{
+    filter: grayscale(100%) opacity(24%);
+}
+.container .box:hover{
+    filter: grayscale(0%) opacity(100%);
+}
+.container{
+    --layout-1: 3fr 1fr 1fr 1fr 1fr;
+    --layout-1: 3fr 1fr 1fr 1fr 1fr;
+    --layout-1: 3fr 1fr 1fr 1fr 1fr;
+    --layout-1: 3fr 1fr 1fr 1fr 1fr;
+    --layout-1: 3fr 1fr 1fr 1fr 1fr;
+}
