@@ -1,0 +1,11 @@
+.accordion{
+    width: 80%;
+    height: 250px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+ul{
+    width: 100%;
+    display: table;
+    
+}

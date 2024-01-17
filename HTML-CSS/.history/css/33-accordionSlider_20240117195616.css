@@ -1,0 +1,16 @@
+.accordion{
+    width: 80%;
+    height: 250px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+ul{
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    margin: 0;
+    padding: 0;
+}
+li{
+    --img-1: url('');
+}
