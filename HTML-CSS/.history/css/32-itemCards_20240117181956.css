@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:wgt@400;700&display=swap');
+
+body{
+    background-color: #0c0c0c;
+}
+.cards{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    
+}
