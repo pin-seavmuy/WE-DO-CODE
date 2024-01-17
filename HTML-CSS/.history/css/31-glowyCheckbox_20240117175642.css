@@ -1,0 +1,9 @@
+@import url('https://use.fontawesome.com/releases/v6.4.2/css/all.css');
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    
+}
