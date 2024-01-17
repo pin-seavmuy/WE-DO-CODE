@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.cat{
+    position: relative;
+    background-image: url('https://codethehworld.io/wp-content/uploads/2023');
+}
