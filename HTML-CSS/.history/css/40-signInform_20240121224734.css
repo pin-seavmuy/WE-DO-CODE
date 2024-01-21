@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@900&display=swap');
+
+body{
+    height: 100vh;
+    background: linear-gradient(to right, #c471ed, #12c22e9);
+}
