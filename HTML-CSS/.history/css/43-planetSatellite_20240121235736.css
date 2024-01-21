@@ -1,0 +1,16 @@
+body{
+    background-color: #101227;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 12px;
+}
+.planet{
+    width: 30em;
+    height: 30em;
+    background-color: #fff;
+    border-radius: 50%;
+    box
+}
