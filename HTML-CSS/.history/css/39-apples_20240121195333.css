@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
+
+h3{
+    color: #a6a6a6;
+    font-size: 0.7em;
+    letter-spacing: 1.2px;
+}
+img{
+    max-width: 100%;
+    filter: drop-shadow(1px 1px 3px #a6a6a6);
+}
+.product{
+    background-color: #fff;
+    
+}
