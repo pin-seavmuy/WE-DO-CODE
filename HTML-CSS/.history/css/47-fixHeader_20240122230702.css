@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,300,700');
+
+body{
+    background-color: rgb(142, 43, 104);
+}
+.header{
+    background-color: #ffffff4d;
+}
+.content{
+    height: 170px;
+    border: 1px solid #ffffff4d;
+    overflow-x: auto;
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+th{
+    color: #fff;
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    te
+}
