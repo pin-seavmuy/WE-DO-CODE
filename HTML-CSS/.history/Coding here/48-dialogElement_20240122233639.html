@@ -1,0 +1,92 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HTML Dialog Element</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/48-dialogElement.css">
+    </head>
+    <body>
+        
+        <h1>HTML Dialog Demo</h1>
+        <button type="button" class="button open-button">Open Dialog</button>
+
+        <dialog class="dialog">
+            <h2>Dialog Heading</h2>
+            <p>This is the native dialog.</p>
+            <button type="button" class="button close-button">Close Dialog</button>
+        </dialog>
+    </body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML Dialog Element</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/48-dialogElement.css">
+    <style>
+        body {
+            background-color: gray;
+        }
+        
+        .button {
+            padding: 10px;
+            background-color: #fafafa;
+            border: 2px solid cornflowerblue;
+            font-size: 16px;
+            font-weight: bold;
+            color: cornflowerblue;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        
+        .button:hover {
+            background-color: cornflowerblue;
+            color: #fafafa;
+        }
+        
+        .dialog {
+            min-width: 400px;
+            padding: 25px;
+            border: 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px 0 #0000001a;
+            background-color: red;
+            animation: dialogSlide 0.3s;
+        }
+        
+        .dialog::backdrop {
+            background-color: rgba(0, 0, 0, 0.7);
+            animation: dialogBackdropFade 0.2s;
+        }
+        
+        @keyframes dialogSlide {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+        }
+        
+        @keyframes dialogBackdropFade {
+            from {
+                background-color: #00000000;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Dialog Demo</h1>
+    <button type="button" class="button open-button">Open Dialog</button>
+
+    <dialog class="dialog">
+        <h2>Dialog Heading</h2>
+        <p>This is the native dialog.</p>
+        <button type="button" class="button close-button">Close Dialog</button>
+    </dialog>
+</body>
+</html>

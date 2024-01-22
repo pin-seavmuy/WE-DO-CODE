@@ -1,0 +1,21 @@
+.button{
+    padding: 10px;
+    background-color: #fafafa;
+    border: 2px solid cornflowerblue;
+    font-size: 16px;
+    font-weight: bold;
+    color: cornflowerblue;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: cornflowerblue;
+    color: #fafafa;
+}
+.dialog{
+    min-width: 400px;
+    padding: 25px;
+    border: 0;
+    border-radius: 10px;
+    
+}
