@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+:root {
+    --white: #FFF;
+    --light: #E0C9CB;
+    --tan: #C3A1A0;
+    --pink: #D9AAB7;
+    --rose: #BA7E7E;
+    --dark: #4E4E4E;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 35em;
+    background: var(--white);
+    box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
+    border-radius: 10px;
+    padding: 1em;
+}
+p{
+    font-size: 0.6em;
+    color: var(--rose);
+    letter-spacing: 1px;
+}
+
+.images-and-sizes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    & img{
+        width: 20em;
+    }
+    & .slideshow-buttons{
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+
+        & span{
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: var(--light);
+        }
+         & .focus{
+            background: var(--rose);
+         }
+    }
+    & .pick{
+        text-transform: uppercase;
+    }
+    & .sizes{
+        display: flex;
+        justify-content: flex-start;
+        gap: 0.4em;
+
+        & span{
+            border: 1px solid var(--light);
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2px;
+            font-size: 0.7em;
+
+            &:hover{
+                background: var(--rose);
+                color: var(--white);
+                transition: all 0.4s ease-in-out;
+            }
+        }
+        & .focus{
+            background: var(--rose);
+            color: var(--white);
+        }
+    }
+}
+.product{
+    display: flex;
+    
+}

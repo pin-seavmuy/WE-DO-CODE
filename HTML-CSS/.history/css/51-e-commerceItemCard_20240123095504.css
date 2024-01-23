@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+:root {
+    --white: #F5F5F5;
+    --light: #E0C9CB;
+    --tan: #C3A1A0;
+    --pink: #D9AAB7;
+    --rose: #BA7E7E;
+    --dark: #4E4E4E;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 35em;
+    background: var(--white);
+    box-shadow: 5px 5px ;
+}
