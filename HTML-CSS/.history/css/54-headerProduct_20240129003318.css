@@ -1,0 +1,56 @@
+@import url("https://fonts.cdnfonts.com/css/mogra");
+.header-container{
+    background-color: purple;
+    padding: 2px 30px 0 0 ;
+}
+.name-box {
+    display: flex; /* Enable flexbox layout */
+    justify-content: space-between; /* Distribute items with space in between */
+    align-items: center; /* Vertically center items */
+  }
+  
+  .brandname {
+    text-align: center; /* Center the text within its container */
+    background-color: yellow;
+    position: relative;
+    left: 50%;
+    font-family: 'Mogra', sans-serif;
+    font-weight: 700;
+    /* transform:  translate(50%,-50%); */
+  }
+
+
+
+.search-container {
+    position: relative;
+    display: flex;
+    background-color: red;
+    padding: 10px;
+  }
+  form{
+    display: flex;
+    gap: 30px;
+  }
+  .search-input {
+    width: 80px;
+    padding-left: 25px; 
+    background-color: #ffffff33;
+    border: none;
+    border-bottom: 1px solid gray;
+    
+  }
+  .login{
+    background-color: #999;
+    padding: 5px 10px;
+    border: ;
+  }
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Adjust for icon position */
+    transform: translateY(-50%); /* Vertically center the icon */
+    color: #999; /* Optional: adjust icon color */
+  }
+  .fa-shopping-cart{
+    color: black;
+  }
