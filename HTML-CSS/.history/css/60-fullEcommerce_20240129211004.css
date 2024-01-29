@@ -3,25 +3,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap'); 
 
 
-@import url("https://fonts.cdnfonts.com/css/mogra");
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700" );
-@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap'); 
-
-
 
 .header-container{
-    /* background-color: purple; */
+    background-color: purple;
     /* padding: 2px 30px 0 0 ; */
+    display: flex;
+    flex-direction: column;
 }
 .name-box {
-    display: flex; /* Enable flexbox layout */
-    justify-content: space-between; /* Distribute items with space in between */
-    align-items: center; /* Vertically center items */
-    margin: 0 0 -15px 0;
+    /* display: flex;  */
+    /* justify-content: space-between;  */
+    align-items: center; 
+    /* margin: 0 0 -15px 0; */
+    background-color: green;
   }
   
   .brandname {
-    text-align: center; /* Center the text within its container */
+    text-align: center; 
     /* background-color: yellow; */
     position: relative;
     left: 50%;
@@ -29,8 +27,6 @@
     font-weight: 700;
     /* transform:  translate(50%,-50%); */
   }
-
-
 
 .search-container {
     position: relative;
@@ -117,8 +113,6 @@
     height: 550px;
     
   } */
-
- 
 
  
   
@@ -225,12 +219,12 @@
     padding: 20px 0 15px 0;
   }
   
-  .productbox{
+  h1{
     margin: 20px 0 -10px 0;
     font-family: "Playfair Display", serif;
     font-weight: lighter;
   }
-  .txt{
+  h4{
     font-family: "montaga", serif;
     font-weight: lighter;
   }

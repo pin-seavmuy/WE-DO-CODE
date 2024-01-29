@@ -3,21 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap'); 
 
 
-@import url("https://fonts.cdnfonts.com/css/mogra");
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700" );
-@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap'); 
-
-
 
 .header-container{
-    /* background-color: purple; */
-    /* padding: 2px 30px 0 0 ; */
+    background-color: purple;
+    padding: 2px 30px 0 0 ;
 }
 .name-box {
     display: flex; /* Enable flexbox layout */
     justify-content: space-between; /* Distribute items with space in between */
     align-items: center; /* Vertically center items */
-    margin: 0 0 -15px 0;
+    margin: 0 0 -5px 0;
   }
   
   .brandname {
@@ -111,16 +106,6 @@
     font-size: 15px;
     padding: 0 0 0px 250px;
   }
-  /* .test{
-    background-color: #999;
-    width: 100%;
-    height: 550px;
-    
-  } */
-
- 
-
- 
   
   /* *******************************main page "2 section" **************************************************** */
 
@@ -225,12 +210,12 @@
     padding: 20px 0 15px 0;
   }
   
-  .productbox{
+  h1{
     margin: 20px 0 -10px 0;
     font-family: "Playfair Display", serif;
     font-weight: lighter;
   }
-  .txt{
+  h4{
     font-family: "montaga", serif;
     font-weight: lighter;
   }

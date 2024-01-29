@@ -225,12 +225,12 @@
     padding: 20px 0 15px 0;
   }
   
-  .productbox{
+  .{
     margin: 20px 0 -10px 0;
     font-family: "Playfair Display", serif;
     font-weight: lighter;
   }
-  .txt{
+  h4{
     font-family: "montaga", serif;
     font-weight: lighter;
   }
