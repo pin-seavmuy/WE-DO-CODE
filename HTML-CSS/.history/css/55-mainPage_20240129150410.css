@@ -1,0 +1,21 @@
+body{
+    background-color: #fff;
+}
+.page-container{
+    background-color: aquamarine;
+    width: 100%;
+    height: 300px;
+    /* padding: 2px; */
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    background-color: #E9E9E9;
+    width: 50%;
+    /* padding: 5px; */
+}
+.right{
+    background-color: #A0BA9B;
+    padding: 5px;
+    width: 50%;
+}

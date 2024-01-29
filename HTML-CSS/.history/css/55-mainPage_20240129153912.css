@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700" );
+
+
+.text{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    font-size: 90px;
+    width: 500px;
+    font-family: "Playfair Display", serif;
+}
