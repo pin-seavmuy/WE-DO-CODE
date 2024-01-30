@@ -384,14 +384,14 @@
     /* border: 1px solid gray; */
   }
 
-/* ********************** product list "5 section" *************************************** */
+/* ********************** image slider "4 section" *************************************** */
 
   
 .list-container{
-  background-color: #fff;
+  background-color: #ffffff33;
   /* background-color: green; */
   /* width: 100%; */
-  /* height: 800px; */
+  height: 800px;
   padding: 50px;
 }
 
