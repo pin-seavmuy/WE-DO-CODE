@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Product list</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/57-productList.css">
+        <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+<script type="text/javascript" src="js/lightslider.js"></script>
+</head>
+<body>
+	<div class="container">
+		<!--slider------------------->
+		<ul id="autoWidth" class="cs-hidden">
+		<!--1------------------------------>
+  <li class="item-a">
+	  <!--slider-box-->
+		<div class="box">
+		<p class="marvel">MARVEL</p>
+		<!--model-->
+		<img class="model" src="img/Ant-Man.png">
+		<!--details-->
+		<div class="details">
+		<!--logo-character-->
+		<img class="logo" src="img/AntMan-logo.png" style="height: auto;" width="100px">
+		<!--character-details-->
+		<p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+		</div>
+		
+		</div>
+		</li>
+		<!--2------------------------------>
+  <li class="item-a">
+	  <!--slider-box-->
+		<div class="box">
+		<p class="marvel">MARVEL</p>
+		<!--model-->
+		<img class="model" src="img/DeadPool.png">
+		<!--details-->
+		<div class="details">
+		<!--logo-character-->
+		<img class="logo" src="img/Deadpool-logo.png">
+		<!--character-details-->
+		<p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+		</div>
+		
+		</div>
+		</li>
+		<!--3------------------------------>
+  <li class="item-a">
+	  <!--slider-box-->
+		<div class="box">
+		<p class="marvel">MARVEL</p>
+		<!--model-->
+		<img class="model" src="img/SpiderMan.png">
+		<!--details-->
+		<div class="details">
+		<!--logo-character-->
+		<img class="logo" src="img/SpiderMan-logo.png">
+		<!--character-details-->
+		<p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+		</div>
+		
+		</div>
+		</li>
+		<!--4------------------------------>
+  <li class="item-a">
+	  <!--slider-box-->
+		<div class="box">
+		<p class="marvel">MARVEL</p>
+		<!--model-->
+		<img class="model" src="img/Venom.png">
+		<!--details-->
+		<div class="details">
+		<!--logo-character-->
+		<img class="logo" src="img/Venom-logo.png">
+		<!--character-details-->
+		<p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+		</div>
+		
+		</div>
+		</li>
+		<!--5------------------------------>
+  <li class="item-a">
+	  <!--slider-box-->
+		<div class="box">
+		<p class="marvel">MARVEL</p>
+		<!--model-->
+		<img class="model" src="img/Thor.png">
+		<!--details-->
+		<div class="details">
+		<!--logo-character-->
+		<img class="logo" src="img/Thor-logo.png">
+		<!--character-details-->
+		<p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+		</div>
+		
+		</div>
+		</li>
+		<!--6------------------------------>
+  <li class="item-a">
+	  <!--slider-box-->
+		<div class="box">
+		<p class="marvel">MARVEL</p>
+		<!--model-->
+		<img class="model" src="img/IronMan.png">
+		<!--details-->
+		<div class="details">
+		<!--logo-character-->
+		<img class="logo" src="img/IronMan-logo.png">
+		<!--character-details-->
+		<p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+		</div>
+		
+		</div>
+		</li>
+		</ul>
+			
+			
+	
+	
+	</div>
+	
+	
+<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
+6) Copy The Product Slider CSS Style Sheet Code Which I Given Below And Past In Your "CSS" File.
+
+CSS
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.container{
+	width:100%;
+	height: 100vh;
+	background-color:#a4152c;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.box{
+	width:350px;
+	height:610px;
+	background-color:#1e1e26;
+	border-radius: 10px;
+	box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin: 20px 10px;
+}
+.model{
+	height: 350px;
+	max-height: 100%;
+	max-width: 100%;
+}
+.details{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+}
+.details p{
+	font-family: calibri;
+	font-weight: bold;
+	color:#6a6a74;
+	text-align: center;
+	margin-top: 20px;
+}
+.marvel{
+	color:#32323e;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: bebas kai;
+	font-size: 25px;
+}
+.logo{
+	height: 60px;
+}
+.box:hover{
+	background-color: #17171d;
+	transform-style: preserve-3d;
+	transform: scale(1.02);
+	transition: all ease 0.3s;
+}
+.box:hover .marvel{
+	color:#c0292b;
+	transition: all ease 0.5s;
+}
+/*--responsive for mobile phone--*/
+@media(max-width:720px){
+	.box{
+		width: 94%;
+		height: 500px;
+	}
+	.model{
+		height:250px;
+	}
+	.details p{
+		font-size: 16px;
+		width: 250px;
+	}
+	
+}
+7) Copy The Product Slider JavaScript Code Which I Given Below And Past In Your "Js" File.
+
+Js
+ 
+// JavaScript Document
+ $(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });
+8) Download The Images And LightSlider Files Which I Given Below And Put In Your Project Folder. JavaScript Files Put In "Js" Folder And CSS Style Sheet Files Put In "CSS" Folder.
+9) After Doing All Steps, Open HTML File(Index.html) And Enjoy This Awesome Personal Portfolio Website.
+10) If You Any Issue, Please Check My Marvel Product Slider Tutorial, Which I Given Below.
+
+
+
+Download Images
+Download Source Code
+RELATED POSTS
+thumbnail
+CREATE A COURSE SECTION WITH POPUP BOX ONLY USING HTML AND CSS
+NOV 02, 2022
+thumbnail
+HOW TO CREATE A PIZZA SHOP WEBSITE USING HTML AND CSS
+SEP 23, 2020
+2
+thumbnail
+HOW TO MAKE A PERSONAL WEBSITE USING HTML AND CSS
+JUL 26, 2020
+9
+thumbnail
+HOW TO MAKE SMOOTH SCROLL WEBSITE WITH SLIDERS USING HTML CSS
+MAY 10, 2020
+thumbnail
+HOW TO CREATE A TEXT ANIMATION USING HTML AND CSS
+NOV 08, 2019
+Share
+ 15 commentsLabels#HTML Tutorial, #JavaScript
+COMMENTS
+SHANYS
+AUGUST 21, 2020 AT 8:37 PM
+REPLY
+hi,
+so it's not a framework or template?
+
+it's pure code ?
+
+UNKNOWN
+SEPTEMBER 2, 2020 AT 10:36 PM
+hi, yes, except easyslider plugin in js
+
+he just made a styled box and used js thing
+
+
+RAVI ABHISHEK
+SEPTEMBER 10, 2020 AT 8:42 AM
+REPLY
+hello,i need a help..can i use it for blogger post.plz help me
+
+UNKNOWN
+NOVEMBER 25, 2020 AT 12:46 PM
+REPLY
+hey where is download option?
+
+UNKNOWN
+DECEMBER 10, 2020 AT 3:27 PM
+REPLY
+hi... everything looks amazing but i have an issue.
+The arrows that move between the images dont appear. I did step by step the guide.
+
+GOING-TO INTERNET
+DECEMBER 10, 2020 AT 5:15 PM
+You find the control image (arrow image) in the light slider file. Copy this control image make New folder with name "img" name must be same. Past the control image here, after doing this all steps just refresh your browser window, arrow buttons Will be appear.
+
+UNKNOWN
+DECEMBER 20, 2020 AT 3:10 AM
+REPLY
+Hello, i downloaded the files and when i tried to run, i see all the elements shown one under the other not next to each other, but every other thing is perfect, how to fix this ?
+
+
+UNKNOWN
+DECEMBER 20, 2020 AT 3:12 AM
+REPLY
+Oh sorry it was my fault, i mistakenly deleted the jquery file which caused that. thanks alot :)
+
+Anonymous
+FEBRUARY 2, 2021 AT 4:38 PM
+REPLY
+link of site please
+
+ALI ADNAN ASIM
+FEBRUARY 12, 2021 AT 9:40 PM
+REPLY
+😍
+
+PRISHIFE VOYAGEANT
+APRIL 27, 2021 AT 10:29 PM
+REPLY
+i run the code exactly but all the images disappeared
+
+UNKNOWN
+AUGUST 30, 2021 AT 7:37 AM
+yes,because we dont have the image of him code
+
+HOBBIT
+JUNE 2, 2021 AT 5:25 PM
+REPLY
+Kann mir jemand sagen, warum die Bilder bei mir untereinander angezeigt werden und nicht nebeneinander? Ich finde meinen Fehler nicht.
+
+AMAN TIWARI
+JULY 17, 2021 AT 8:14 PM
+REPLY
+which lightslider js and css file to copy?......dist or root
+
+UNKNOWN
+OCTOBER 9, 2021 AT 9:32 PM
+REPLY
+there is one problem arrow is not coming in slider can you please help me.
+
+
+EMOTIONS
+Followers
+
+
+Search This Blog
+
+Search this blog
+
+Labels
+CSS ECOMMERCE WEBSITE FOOD WEBSITE HOW TO MAKE WEBSITE HTML HTML TUTORIAL JAVASCRIPT PERSONAL WEBSITE PRODUCT SLIDER
+Popular Posts
+Image
+Customer Reviews on Website Using HTML and CSS
+Reviews Section HTML Learn how to make customer reviews on the web…
+ 
+Image
+How To Create Shopping Website Using HTML CSS And jQuery
+E-Commerce shopping website In this post, you will learn how to make …
+ 
+Image
+How To Make a Responsive Movie Website Using HTML
+Movie Website HTML Learn how to create a responsive Movie Website …
+ 
+Image
+How To Create Product Slider Using HTML And JavaScript
+Product Slider Using JavaScript Learn How To Make Product Slider Using HTM…
+ 
+Image
+How To Create A Complete Movie Website Using HTML And CSS
+How To Create A Complete Movie Website Using HTML, CSS, and JavaScript …
+ 
+Image
+How To Make A Personal Website Using HTML And CSS
+Personal Website Learn How To Make A Personal Website Using HTML And CSS. …
+ 
+Image
+How To Create User Interface (UI) Website Using HTML
+User Interface (UI) Website Learn how to make User Interface(UI) Web…
+ 
+Image
+How To Create Fashion Website Using HTML CSS And JavaScript
+Fashion Slider Website Learn how to make a Fashion website with Awesome C…
+ 
+Image
+How To Make A Grocery Store Website Just Using HTML And CSS
+Grocery Store Website HTML CSS We will create a Grocery Store Websit…
+ 
+Image
+How To Create A Blog Section Using HTML and CSS
+Blog Section HTML and CSS Learn how to make a Blog Section for your …
+
+    </head>
+    <body>
+        <!-- <div class="list-container">
+            <div class="arrival"></div>
+            <div class="clothes-box"></div>
+        </div>
+         -->
+
+         <div class="container">
+            <!--slider------------------->
+            <ul id="autoWidth" class="cs-hidden">
+            <!--1------------------------------>
+      <li class="item-a">
+          <!--slider-box-->
+            <div class="box">
+            <p class="marvel">MARVEL</p>
+            <!--model-->
+            <img class="model" src="img/Ant-Man.png">
+            <!--details-->
+            <div class="details">
+            <!--logo-character-->
+            <img class="logo" src="img/AntMan-logo.png" style="height: auto;" width="100px">
+            <!--character-details-->
+            <p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+            </div>
+            
+            </div>
+            </li>
+            <!--2------------------------------>
+      <li class="item-a">
+          <!--slider-box-->
+            <div class="box">
+            <p class="marvel">MARVEL</p>
+            <!--model-->
+            <img class="model" src="img/DeadPool.png">
+            <!--details-->
+            <div class="details">
+            <!--logo-character-->
+            <img class="logo" src="img/Deadpool-logo.png">
+            <!--character-details-->
+            <p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+            </div>
+            
+            </div>
+            </li>
+            <!--3------------------------------>
+      <li class="item-a">
+          <!--slider-box-->
+            <div class="box">
+            <p class="marvel">MARVEL</p>
+            <!--model-->
+            <img class="model" src="img/SpiderMan.png">
+            <!--details-->
+            <div class="details">
+            <!--logo-character-->
+            <img class="logo" src="img/SpiderMan-logo.png">
+            <!--character-details-->
+            <p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+            </div>
+            
+            </div>
+            </li>
+            <!--4------------------------------>
+      <li class="item-a">
+          <!--slider-box-->
+            <div class="box">
+            <p class="marvel">MARVEL</p>
+            <!--model-->
+            <img class="model" src="img/Venom.png">
+            <!--details-->
+            <div class="details">
+            <!--logo-character-->
+            <img class="logo" src="img/Venom-logo.png">
+            <!--character-details-->
+            <p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+            </div>
+            
+            </div>
+            </li>
+            <!--5------------------------------>
+      <li class="item-a">
+          <!--slider-box-->
+            <div class="box">
+            <p class="marvel">MARVEL</p>
+            <!--model-->
+            <img class="model" src="img/Thor.png">
+            <!--details-->
+            <div class="details">
+            <!--logo-character-->
+            <img class="logo" src="img/Thor-logo.png">
+            <!--character-details-->
+            <p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+            </div>
+            
+            </div>
+            </li>
+            <!--6------------------------------>
+      <li class="item-a">
+          <!--slider-box-->
+            <div class="box">
+            <p class="marvel">MARVEL</p>
+            <!--model-->
+            <img class="model" src="img/IronMan.png">
+            <!--details-->
+            <div class="details">
+            <!--logo-character-->
+            <img class="logo" src="img/IronMan-logo.png">
+            <!--character-details-->
+            <p>Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.</p>
+            </div>
+            
+            </div>
+            </li>
+            </ul>
+                
+                
+        
+        
+        </div>
+        
+        
+        <script src="" async defer></script>
+    </body>
+</html>
