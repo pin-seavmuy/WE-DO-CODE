@@ -725,9 +725,9 @@
 
 
 
-/* ********************** About Us "7 section" *************************************** */
-.info-container{
-  width: 90%;
+/* ********************** why choose us "6 section" *************************************** */
+.about-container{
+  /* width: 100%; */
   background-color: #fff;
   height: 200px;
   display: flex;
@@ -743,7 +743,7 @@
   }
       .contact-box h3{
           font-family: 'Mogra' , sans-serif;
-          font-size: 32px;
+          font-size: 28px;
       }
       .contact-box i{
           color: black;

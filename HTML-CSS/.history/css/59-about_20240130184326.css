@@ -9,7 +9,7 @@
     height: 200px;
     display: flex;
     /* gap: 50px; */
-    padding: 20px 80px;
+    /* padding: 20px 80px; */
     justify-content: space-between;
 }
     .contact-box{
