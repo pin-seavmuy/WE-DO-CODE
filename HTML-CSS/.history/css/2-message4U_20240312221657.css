@@ -51,6 +51,3 @@ button:nth-child(2){
     background-color: #fff;
     counter-reset: #e94d58;
 }
-.no-btn{
-    color: black;
-}
